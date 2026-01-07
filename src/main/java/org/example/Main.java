@@ -32,9 +32,8 @@ public class Main extends Application {
 
 	/*
 	* Icon from: https://www.flaticon.com/free-icon/calculator_1011863
-	* URL shortened with: https://www.shorturl.at/
 	*/
-	private final Image logo = new Image("https://shorturl.at/uParh");
+	private final Image logo = new Image("./calculator.png");
 
 	/* Contains the display and number/operation buttons */
 	private final VBox calculator = new VBox();
