@@ -85,6 +85,8 @@ public final class CalculatorController {
             case BACK_SPACE:
                 handleDeleteAction();
                 break;
+            default:
+                break;
         }
     }
 
